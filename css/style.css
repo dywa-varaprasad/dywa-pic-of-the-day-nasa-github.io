@@ -1,0 +1,126 @@
+/* styling universally to have control over the page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins","Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+body{
+  background-image: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+}
+/***********************header was inserted into main******************************/
+main {
+  height: 5vh;
+  margin: 0 37%;
+}
+
+/***********************heading h1******************************/
+main h1 {
+  color: aliceblue;
+  padding: 1px;
+  border: 2px solid burlywood;
+  margin-top: 1%;
+  background-color: #4e5efe;
+}
+/***********************hero content styling******************************/
+.hero-content {
+  height: 65vh;
+  width: 100%;
+  margin-top: 1%;
+}
+
+/***********************h3 and ******************************/
+.half-hero {
+  border: 3px solid red;
+  height: 100%;
+  width: 48%;
+  float: left;
+  margin: 1%;
+}
+
+h3 {
+  width: 98%;
+  height: 98%;
+  margin: 1%;
+  transition: all 0.5s;
+color: gray;
+
+  
+  /* margin-right: 5%; */
+}
+
+h3:hover{
+color: black;
+letter-spacing: 0.5px;
+text-shadow: #4e5efe;
+}
+
+/***********************image styling******************************/
+
+img {
+  height: 100%;
+  width: 100%;
+  padding: 1%;
+}
+
+.input-data h2 {
+  text-align: center;
+  color: #4e5efe;
+  background-color: aliceblue;
+  margin-right: 2%;
+  display: inline-block;
+}
+
+.input-data {
+  height: 15vh;
+  width: 60vw;
+  margin: 0 30%;
+  padding: 2%;
+}
+
+footer {
+  height: 10vh;
+  width: auto;
+  font-size: larger;
+  font-weight: 100;
+  padding-left: 37%;
+  padding-top: 2%;
+}
+
+a {
+  color: salmon;
+  text-decoration: none;
+  margin: 0.5%;
+  transition: all 0.6s;
+}
+
+a:hover {
+  color: #4e5efe;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.half-hero + .half-hero {
+  padding: 1%;
+  background-color: antiquewhite;
+  text-decoration: none;
+  /* column-count: 1; */
+  height: 100%;
+}
+
+button {
+  color: aliceblue;
+  background-color: #4e5efe;
+  padding: 0.2%;
+  font-size: large;
+  margin-left: 2%;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid burlywood;
+}
+
+button:hover {
+  font-size: larger;
+}
